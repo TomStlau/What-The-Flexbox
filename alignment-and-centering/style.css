@@ -201,12 +201,20 @@ input::-moz-focus-inner {
 
 .container {
   display: flex;
-  border: 10px solid goldenrod;
-  min-height: 100vh;
-  flex-wrap: wrap;
 }
 
 .box {
-  flex-basis: 300px;
-  flex-grow: 1;
+  flex: 1;
+}
+
+.box3 {
+  order: 2;
+}
+
+.box10 {
+  order: 1;
+}
+
+.box5 {
+  order: 1;
 }
